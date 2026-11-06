@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_JGMG_CLD'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_JGMG_CLD'
+  }
+}
+define service ZUI_JGMG_CLD_O4 provider contracts odata_v4_ui {
+  expose ZC_JGMG_CLD;
+}

@@ -1,0 +1,24 @@
+managed implementation in class zbp_r_rap_empl unique;
+strict ( 2 );
+
+define behavior for ZR_RAP_EMPL alias Employee
+persistent table zjgmg_cld
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) Empid;
+
+  mapping for zjgmg_cld corresponding
+    {
+      CntryKey           = cntry_key;
+      CreatedAt          = created_at;
+      CreatedBy          = created_by;
+      LastChangedAt      = last_changed_at;
+      LastChangedBy      = last_changed_by;
+      LocalLastChangedAt = local_last_changed_at;
+    }
+}

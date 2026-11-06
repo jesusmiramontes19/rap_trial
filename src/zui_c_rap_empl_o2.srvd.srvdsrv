@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition - ZC_RAP_EMPL'
+define service ZUI_C_RAP_EMPL_O2 {
+  expose ZC_RAP_EMPL as Employee;
+}

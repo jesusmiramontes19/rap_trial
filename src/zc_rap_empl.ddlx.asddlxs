@@ -1,0 +1,32 @@
+@Metadata.layer: #CORE
+annotate entity ZC_RAP_EMPL with
+{
+
+  @UI.lineItem: [{position: 10 }]
+  Empid;
+
+  @UI.lineItem: [{position: 20 }]
+  Fname;
+
+  @UI.lineItem: [{position: 30 }]
+  Lname;
+
+  @UI.lineItem: [{position: 40 }]
+  CntryKey;
+
+  @UI.lineItem: [{position: 50 }]
+  CreatedBy;
+
+  @UI.lineItem: [{position: 60 }]
+  CreatedAt;
+
+  @UI.lineItem: [{position: 70 }]
+  LastChangedBy;
+
+  @UI.lineItem: [{position: 80 }]
+  LastChangedAt;
+
+  @UI.lineItem: [{position: 90 }]
+  LocalLastChangedAt;
+
+}

@@ -1,0 +1,125 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Empid'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Empid'
+annotate view ZC_JGMG_CLD with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @EndUserText.label: 'Employee ID.'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Employee ID.'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Employee ID.'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Empid;
+  
+  @EndUserText.label: 'First Name'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'First Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'First Name'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Fname;
+  
+  @EndUserText.label: 'Last Name'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Last Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Last Name'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Lname;
+  
+  @EndUserText.label: 'ID Country'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'ID Country'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'ID Country'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  CntryKey;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  LocalLastChangedAt;
+}
