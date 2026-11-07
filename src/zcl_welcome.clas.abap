@@ -15,6 +15,6 @@ ENDCLASS.
 CLASS zcl_welcome IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello to my RAP World!' ).
+    out->write( 'Hello GitHub!' ).
   ENDMETHOD.
 ENDCLASS.
