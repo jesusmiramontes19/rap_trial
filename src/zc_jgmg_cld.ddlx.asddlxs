@@ -102,13 +102,13 @@ annotate view ZC_JGMG_CLD with
   LastChangedBy;
   
   @UI.identification: [ {
-    position: 80 
+    position: 81 
   } ]
   @UI.lineItem: [ {
-    position: 80 
+    position: 81 
   } ]
   @UI.selectionField: [ {
-    position: 80 
+    position: 81
   } ]
   LastChangedAt;
   

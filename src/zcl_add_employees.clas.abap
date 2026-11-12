@@ -27,12 +27,12 @@ CLASS zcl_add_employees IMPLEMENTATION.
 
     " Datos de ejemplo (el campo client se llena automáticamente)
     lt_employees = VALUE #(
-      ( empid = '0000000001' fname = 'Jesús'    lname = 'Miramontes' cntry_key = 'MX' )
+      ( empid = '0000000001' fname = 'Jesús'    lname = 'Miramontes v2' cntry_key = 'MX' )
       ( empid = '0000000002' fname = 'María'    lname = 'González'   cntry_key = 'MX' )
       ( empid = '0000000003' fname = 'John'     lname = 'Smith'      cntry_key = 'US' )
       ( empid = '0000000004' fname = 'Anna'     lname = 'Schmidt'    cntry_key = 'DE' )
       ( empid = '0000000005' fname = 'Carlos'   lname = 'Ramírez'    cntry_key = 'US' )
-      ( empid = '0000000006' fname = 'Lucía'    lname = 'Fernández'  cntry_key = 'CA' )
+      ( empid = '0000000006' fname = 'Lucía'    lname = 'Fernández v2'  cntry_key = 'CA' )
     ).
 
       " Llenar los campos administrativos en todos los registros
@@ -51,7 +51,7 @@ CLASS zcl_add_employees IMPLEMENTATION.
     INSERT zjgmg_cld FROM TABLE @lt_employees.
 
     IF sy-subrc = 0.
-      out->write( |Se insertaron { lines( lt_employees ) } registros en ZJGMG_CLD| ).
+      out->write( |Se insertaron { lines( lt_employees ) } registros en tabla ZJGMG_CLD| ).
     ELSE.
       out->write( |Error al insertar registros| ).
     ENDIF.
