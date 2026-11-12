@@ -15,6 +15,6 @@ ENDCLASS.
 CLASS zcl_welcome IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello GitHub - Conflicto!' ).
+    out->write( 'Hello GitHub - Conflicto! v2' ).
   ENDMETHOD.
 ENDCLASS.
